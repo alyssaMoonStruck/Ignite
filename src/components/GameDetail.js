@@ -59,7 +59,7 @@ const getPlatform = (platform) => {
             return nintendo;
         case "iOS":
             return apple;
-                defualt:
+                default:
                 return gamepad
     }
 }
