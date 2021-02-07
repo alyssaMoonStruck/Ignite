@@ -50,15 +50,16 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'Roboto Mono', monospace;
         font-weight: lighter;
         color: #f8f8ff;
+        text-shadow: 10px 10px 10px 30px #000;
     }
     h3{
-        background-color: #f8f8ff;
+        background-color: rgba(240, 255, 240, 0.4);
         font-size: 1.3rem;
         color: #333;  
         padding: 1rem 0rem;
         }
         p{
-            background-color: #f8f8ff;
+            background-color: rgba(240, 255, 240, 0.4);
             font-size: 1.2rem;
             line-height: 200%;
             color: #696969;
