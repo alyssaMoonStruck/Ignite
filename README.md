@@ -19,3 +19,4 @@ Based off of Dev Eds React coding course.
 ## Future Goals
 * Would like to make load time faster.
 * Would Like to make transitions less choppy. 
+* Would like to add pagination.
