@@ -85,10 +85,9 @@ const GlobalStyles = createGlobalStyle`
             color: #f8f8ff;
         }
         @media screen and (max-width: 600px) {
-        .img {
+        .body {
         width: 100%;
-        margin: 50%;
-    }
+        }
 }
 `
 
