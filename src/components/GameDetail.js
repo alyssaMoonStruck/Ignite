@@ -130,6 +130,9 @@ const Detail = styled(motion.div)`
     width: 80%;
     border-radius: 1rem;
     padding: 2rem 5rem;
+    @media (max-width: 768px) {
+        padding: 2rem 2rem;
+    }
     background: white;
     position: absolute;
     left: 10%;
