@@ -86,7 +86,7 @@ const GlobalStyles = createGlobalStyle`
         }
         @media screen and (max-width: 600px) {
         .body {
-        width: 100%;
+            width: 100%;
         }
 }
 `
