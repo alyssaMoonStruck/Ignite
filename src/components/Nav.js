@@ -44,6 +44,9 @@ const Nav = () => {
 const StyledNav = styled(motion.nav)`
     padding: 3rem 5rem;
     text-align: center;
+    @media (max-width: 600px) {
+        padding: 1rem 2rem;
+    }
     input{
         width: 30%;
         font-size: 1.5rem;
@@ -54,7 +57,7 @@ const StyledNav = styled(motion.nav)`
         font-weight: bold;
         font-family: 'Rajdhani', sans-serif;
         @media (max-width: 600px) {
-        width: 60%;
+        width: 50%;
     }
     }
     button {
