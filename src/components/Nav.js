@@ -53,6 +53,9 @@ const StyledNav = styled(motion.nav)`
         box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
         font-weight: bold;
         font-family: 'Rajdhani', sans-serif;
+        @media (max-width: 600px) {
+        width: 60%;
+    }
     }
     button {
     font-size: 1.5rem;

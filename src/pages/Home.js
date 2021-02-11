@@ -97,10 +97,13 @@ const { popular, newGames, upcoming, searched } = useSelector((state) => state.g
 const GameList = styled(motion.div)`
     padding: 0rem 5rem;
     @media (max-width: 600px) {
-        padding: 0rem 1rem;
+        padding: 0rem 3rem;
     }
     h2 {
         padding: 5rem 0rem;
+        @media (max-width: 600px) {
+        padding: 5rem 3rem;
+    }
     }
 `
 
