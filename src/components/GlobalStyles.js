@@ -84,6 +84,12 @@ const GlobalStyles = createGlobalStyle`
             background: #ff7676;
             color: #f8f8ff;
         }
+        @media screen and (max-width: 600px) {
+        .img {
+        width: 100%;
+        margin: 50%;
+    }
+}
 `
 
 export default GlobalStyles
