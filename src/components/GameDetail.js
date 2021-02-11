@@ -159,10 +159,8 @@ const Info = styled(motion.div)`
 `;
 
 const Platforms = styled(motion.div)`
-    display: flex;
-    justify-content: space-evenly;
     img {
-        margin-left: 3rem;
+        margin-left: 5px;
     }
 `;
 
